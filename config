@@ -25,6 +25,7 @@ bindsym $mod+Return exec konsole
 bindsym $mod+d exec rofi -show run
 # kill focused window
 bindsym $mod+Shift+q kill
+bindsym $mod+Tab exec rofi -show window
 
 # focus the parent container
 bindsym $mod+a focus parent
