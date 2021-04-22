@@ -20,7 +20,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # {{{ Window Management
 # start a terminal
-bindsym $mod+Return exec konsole
+bindsym $mod+Return exec alacritty
 # start dmenu (a program launcher)
 bindsym $mod+d exec rofi -show run
 # kill focused window
