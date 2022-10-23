@@ -139,14 +139,19 @@ bindsym $mod+r mode "resize"
 # {{{ Floating Related Settings
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-floating_minimum_size 500 x 500
-floating_maximum_size 1920 x 2100
+#floating_minimum_size 2534 x 1080
+floating_maximum_size -1 x -1
 
 # Floating Related Shortcuts
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
+# }}}
+
+# {{{ scratchpad
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
 # }}}
 
 # tango dark
